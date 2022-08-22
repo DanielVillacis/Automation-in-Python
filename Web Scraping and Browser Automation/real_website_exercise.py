@@ -28,9 +28,9 @@ def clean_text(text):
 
 def main():
     driver = get_chrome_driver()
-    driver.find_element(by="id", value="username").send_keys("daniel1997v@gmail.com")
+    driver.find_element(by="id", value="username").send_keys("@gmail.com")
     time.sleep(2)
-    driver.find_element(by="id", value="password").send_keys("drve1997" + Keys.RETURN) # Keys.RETURN = pressing the enter key on the keyboard
+    driver.find_element(by="id", value="password").send_keys("password" + Keys.RETURN) # Keys.RETURN = pressing the enter key on the keyboard
     time.sleep(2)
     #driver.find_element(by="xpath", value="").click()
     #time.sleep(2)
