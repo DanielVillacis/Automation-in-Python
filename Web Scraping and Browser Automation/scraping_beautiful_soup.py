@@ -12,6 +12,8 @@ def get_currency_rate(from_currency, to_currency, amount):
     return rate
 
 
-
-current_rate = get_currency_rate('CAD', 'EUR', '100')
+from_currency = input(str("Enter a currency: "))
+to_currency = input(str("Exchanging to: "))
+amount = input(str("Enter the amount to exchange: "))
+current_rate = get_currency_rate(from_currency, to_currency, amount)
 print(current_rate)

@@ -1,0 +1,2 @@
+news API key = fe84376250a8402cbf9056123198aac7
+weather API = 634c68699237086c9ceb5c1c9a9ecdae
